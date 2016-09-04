@@ -11,7 +11,7 @@ It contains 4 files with data in them:<br />
 4. movies.dat : 1M movie name to ID mapping and content<br />
 Notes on how to run last script on cloud:<br />
 1. Put the folder ratings.dat and movies.dat in a S3 bucket on cloud<br />
-2. Add accessKey and secretKey to access the s3 bucket in the script<br />
+2. Add accessKey and secretKey to access the S3 bucket in the script<br />
 3. Change the path to the ratings.dat in the script<br />
 3. Add script itself in the bucket<br />
 4. Download movies.dat and script from S3 on master node<br />
